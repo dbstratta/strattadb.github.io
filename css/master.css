@@ -130,7 +130,7 @@ ul {
 #home-heading-wrapper {
   background: rgba(0,0,0,0.50);
   position: relative;
-  top: 30vh;
+  top: 12rem;
   text-align: center;
 }
 
@@ -182,7 +182,11 @@ ul {
   #home {
     height: 100vh;
   }
-  
+
+  #home-heading-wrapper {
+    top: 30vh;
+  }
+
   .home-upper {
     font-size: 4rem;
   }
