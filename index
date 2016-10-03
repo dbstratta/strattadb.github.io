@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="Content-type" content="text/html">
+  <title>Diego Stratta's Portfolio</title>
+  <link rel="stylesheet" href="css/master.css">
+  <link rel="stylesheet" href="icons/style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0d0">
+  <meta name="author" content="Diego Stratta">
+</head>
+
+<body>
+  <nav id="top-nav">
+    <h1 id="top-nav-logo"><a id="top-logo-a" class="top-nav-a" href="#">diego<span class="span-light">stratta</span></a></h1>
+    <button id="toggle-responsive-nav"><span class="icon-bars"></span></button>
+    <ul id="top-nav-sections" class="responsive-hidden">
+      <li class="top-nav-sections-li"><a class="top-nav-a" href="#about">about</a></li>
+      <li class="top-nav-sections-li"><a class="top-nav-a" href="#work">work</a></li>
+      <li class="top-nav-sections-li"><a class="top-nav-a" href="#contact">contact</a></li>
+    </ul>
+    <ul id="top-nav-social-media" class="responsive-hidden">
+      <li class="top-nav-social-li" title="LinkedIn">
+        <a class="top-nav-a" href="https://www.linkedin.com/in/diegostratta" target="_blank">
+          <span class="icon-linkedin"></span>
+        </a>
+      </li>
+      <li class="top-nav-social-li" title="GitHub">
+        <a class="top-nav-a" href="https://github.com/strattadb" target="_blank">
+          <span class="icon-github"></span>
+        </a>
+      </li>
+      <li class="top-nav-social-li" title="Twitter">
+        <a class="top-nav-a" href="https://twitter.com/strattadb" target="_blank">
+          <span class="icon-twitter"></span>
+        </a>
+      </li>
+    </ul>
+  </nav>
+
+  <section id="home" class="top-level-section">
+    <div id="home-heading-wrapper">
+      <h1 class="home-upper">diego stratta</h1>
+      <h2 class="home-lower">web developer</h2>
+    </div>
+  </section>
+
+  <section id="about" class="top-level-section">
+    <h2>about me</h2>
+    <div id="about-wrapper" class="flex">
+      <p id="p-about">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+      eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+      minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+      ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+      voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+      sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+      mollit anim id est laborum.</p>
+      <!--<img id="img-about-me" src="images/tim.jpg" alt="Diego Stratta">-->
+    </div>
+  </section>
+
+  <section id="work" class="top-level-section">
+    <h2>work</h2>
+    <div class="flex">
+      <article id="work-tile-1" class="work-tile">
+        <a href="#">
+          <h3>Lorem ipsum</h3>
+          
+        </a>
+      </article>
+      <article id="work-tile-2" class="work-tile">
+        <a href="#">
+          <h3>Lorem ipsum</h3>
+          
+        </a>
+      </article>
+      <article id="work-tile-3" class="work-tile">
+        <a href="#">
+          <h3>Lorem ipsum</h3>
+          
+        </a>
+      </article>
+      <article id="work-tile-4" class="work-tile">
+        <a href="#">
+          <h3>Lorem ipsum</h3>
+
+        </a>
+      </article>
+    </div>
+  </section>
+
+  <section id="contact" class="top-level-section">
+    <h2>contact me</h2>
+    <p>Lorem Ipsum</p>
+  </section>
+
+  <footer>
+    <em>Page coded by Diego Stratta</em>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+
+</html>
