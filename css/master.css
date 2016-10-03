@@ -123,7 +123,7 @@ ul {
   background-repeat: no-repeat;
   background-size: cover;
   color: #fff;
-  height: 100vh;
+  height: 30rem;
   margin: 0;
 }
 
@@ -179,6 +179,10 @@ ul {
     display: none;
   }
 
+  #home {
+    height: 100vh;
+  }
+  
   .home-upper {
     font-size: 4rem;
   }
