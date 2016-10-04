@@ -29,5 +29,4 @@ document.addEventListener("DOMContentLoaded", function () {
       topNavSocialMedia.classList.add("responsive-hidden");
     });
   }
-
 });

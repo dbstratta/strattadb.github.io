@@ -13,17 +13,19 @@
 :root {
   --main-color: #3bf;
   --secondary-color: #1a1a1a;
-  --secondary-color-hover: #333;
   --main-bg-color: #1a1a1a;
+  --secondary-bg-color: #ddd;
   --line-height-top-nav: 60px;
-  --font-size-root: 1rem;
-  --font-main-color: #ddd;
+  --sides-space: 5vw;
+  --font-size-root: 16px;
+  --font-light-color: #ddd;
+  --font-dark-color: #1a1a1a;
 }
 
 html,
 body {
   font-size: var(--font-size-root);
-  color: var(--font-main-color);
+  color: var(--font-light-color);
 }
 
 body {
@@ -41,6 +43,7 @@ body {
 }
 
 a {
+  color: var(--font-light-color);
   text-decoration: none;
 }
 
@@ -123,7 +126,7 @@ ul {
   background-repeat: no-repeat;
   background-size: cover;
   color: #fff;
-  height: 30rem;
+  height: 40rem;
   margin: 0;
 }
 
@@ -146,7 +149,50 @@ ul {
   margin: 0;
 }
 
+.top-level-section {
+  padding: var(--line-height-top-nav) var(--sides-space);
+  font-size: 1.2rem;
+}
+
+.section-title {
+  font-size: 2.5rem;
+}
+
+#about {
+  background: var(--secondary-bg-color);
+  color: var(--font-dark-color);
+}
+
+#work-wrapper {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.work-tile {
+  flex: 1 1 100%;
+  background: #666;
+  margin: 0 0 0.5rem 0;
+}
+
+.work-title {
+  margin: 0 0.5em;
+}
+
+#contact {
+  background: var(--secondary-bg-color);
+  color: var(--font-dark-color);
+}
+
+footer {
+  text-align: center;
+}
+
 @media screen and (min-width: 750px) {
+  :root {
+    --sides-space: 15vw;
+  }
+
   .responsive-hidden {
     display: inline;
   }
@@ -193,12 +239,18 @@ ul {
   .home-lower {
     font-size: 2.5rem;
   }
+
+  .work-tile {
+    flex: 1 1 40%;
+    margin: 0 0.5rem 0.5rem 0;
+  }
 }
 
 @media screen and (min-width: 2000px) {
   :root {
     --font-size-root: 1vw;
     --line-height-top-nav: 4vw;
+    --sides-space: 20vw;
   }
 
   #top-nav-logo {
