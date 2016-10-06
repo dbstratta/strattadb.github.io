@@ -43,7 +43,7 @@ body {
 }
 
 a {
-  color: var(--font-light-color);
+  color: var(--main-color);
   text-decoration: none;
 }
 
@@ -184,8 +184,11 @@ ul {
   color: var(--font-dark-color);
 }
 
-footer {
+#main-footer {
+  color: #888;
+  font-size: 0.8rem;
   text-align: center;
+  padding: 0.5em var(--sides-space);
 }
 
 @media screen and (min-width: 750px) {
