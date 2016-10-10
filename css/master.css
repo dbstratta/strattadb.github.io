@@ -185,6 +185,17 @@ ul {
   color: var(--font-dark-color);
 }
 
+.contact-item {
+  background: var(--secondary-bg-color);
+  border-color: var(--main-color);
+  border-width: 0 0 2px 0;
+  border-style: solid;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.2rem;
+  padding: 5px;
+  width: 90%;
+}
+
 #main-footer {
   color: #888;
   font-size: 0.8rem;
