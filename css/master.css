@@ -1,13 +1,13 @@
 @font-face {
   font-family: 'Open Sans';
   font-weight: 400;
-  src: local('Open Sans'), url('/fonts/OpenSans-Regular.woff2') format('woff2');
+  src: local('Open Sans'), url('fonts/OpenSans-Regular.woff2') format('woff2');
 }
 
 @font-face {
   font-family: 'Open Sans';
   font-weight: 300;
-  src: local('Open Sans'), url('/fonts/OpenSans-Light.woff2') format('woff2');
+  src: local('Open Sans'), url('fonts/OpenSans-Light.woff2') format('woff2');
 }
 
 :root {
@@ -121,7 +121,7 @@ ul {
 }
 
 #home {
-  background-image: url('/images/sunset.jpg');
+  background-image: url('images/sunset.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -155,7 +155,8 @@ ul {
 }
 
 .section-title {
-  font-size: 2.5rem;
+  font-weight: 300;
+  font-size: 3rem;
 }
 
 #about {
@@ -193,7 +194,7 @@ ul {
 
 @media screen and (min-width: 750px) {
   :root {
-    --sides-space: 15vw;
+    --sides-space: 20vw;
   }
 
   .responsive-hidden {
@@ -253,7 +254,6 @@ ul {
   :root {
     --font-size-root: 1vw;
     --line-height-top-nav: 4vw;
-    --sides-space: 20vw;
   }
 
   #top-nav-logo {
