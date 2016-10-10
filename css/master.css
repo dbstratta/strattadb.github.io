@@ -1,13 +1,13 @@
 @font-face {
   font-family: 'Open Sans';
   font-weight: 400;
-  src: local('Open Sans'), url('/fonts/OpenSans-Regular.woff2') format('woff2');
+  src: local('Open Sans'), url('../fonts/OpenSans-Regular.woff2') format('woff2');
 }
 
 @font-face {
   font-family: 'Open Sans';
   font-weight: 300;
-  src: local('Open Sans'), url('/fonts/OpenSans-Light.woff2') format('woff2');
+  src: local('Open Sans'), url('../fonts/OpenSans-Light.woff2') format('woff2');
 }
 
 :root {
@@ -121,7 +121,7 @@ ul {
 }
 
 #home {
-  background-image: url('/images/sunset.jpg');
+  background-image: url('../images/sunset.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
