@@ -177,7 +177,16 @@ ul {
 }
 
 .work-title {
-  margin: 0 0.5em;
+  margin: 0.2em 0.5em;
+}
+
+.work-screenshot {
+  width: 100%;
+}
+
+.work-footer {
+  margin-bottom: 0.3em;
+  text-align: center;
 }
 
 #contact {
