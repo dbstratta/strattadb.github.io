@@ -184,13 +184,22 @@ ul {
   width: 100%;
 }
 
-.work-footer {
+.work-tile-footer {
   margin-bottom: 0.3em;
+  text-align: center;
+}
+
+#work-footer {
+  margin-top: 1em;
   text-align: center;
 }
 
 #contact {
   background: var(--secondary-bg-color);
+  color: var(--font-dark-color);
+}
+
+#email-anchor {
   color: var(--font-dark-color);
 }
 
